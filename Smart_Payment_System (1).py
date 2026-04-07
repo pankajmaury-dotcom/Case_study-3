@@ -54,10 +54,10 @@ def process_payment(payment, amount):
 
 
 # Example usage
-p1 = CreditCardPayment("Harshit")
-p2 = UPIPayment("Harshit")
-p3 = PayPalPayment("Harshit")
-p4 = WalletPayment("Harshit", 500)
+p1 = CreditCardPayment("Pankaj")
+p2 = UPIPayment("Pankaj")
+p3 = PayPalPayment("Pankaj")
+p4 = WalletPayment("Pankaj", 500)
 
 process_payment(p1, 1000)
 process_payment(p2, 1200)
